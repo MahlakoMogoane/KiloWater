@@ -1,0 +1,51 @@
+/*stylelsheet for index/home page*/
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+header{
+    color: #587fb5;
+    padding-bottom: 3%;
+}
+
+body{
+    margin:0px;
+}
+
+
+section{
+    background-color: #a4bfdd;
+    color: #000755;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right:20%;
+    padding-bottom: 7%;
+}
+
+
+hr{
+    width:50%;
+    text-align:left;
+    margin-left:01;
+}
+
+a:link{
+    padding-right: 2%;
+    color: #587fb5;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #1d3b78;
+    text-decoration: none;
+}  
+
+a:hover {
+    text-decoration: underline;
+  }
+  
+a:active {
+    text-decoration: underline;
+  }

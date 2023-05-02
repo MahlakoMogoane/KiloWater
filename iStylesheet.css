@@ -1,0 +1,123 @@
+/*stylelsheet for index/home page*/
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ div{ 
+  margin: 0; 
+  background: #a4bfdd;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+} 
+
+#container{
+  width:100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+div.slide{ 
+  position: relative; 
+  width: 500%;
+  font-size: 0; 
+  animation: 12s slidy infinite; 
+}
+
+div.slide div{ 
+  width: 20%; 
+  height: auto;
+  display: inline-block;  
+  position: inherit; 
+}
+
+div.slide img{ 
+  width:100%; 
+  /*height: 80%; */
+}
+
+
+/*********************/
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*set maximum width of page and get rid of horizontal scrollbar*/
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header{
+    color: #587fb5;
+    padding-bottom: 3%;
+}
+
+body{
+    margin:0px;
+}
+
+
+section#welcome{
+    background-color: #1d3b78;
+    color: #000755;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+section#story{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #000755;
+  background-color: #a4bfdd;
+}
+
+h2{
+    padding-bottom: 2%;
+    font-size: 30px;
+}
+
+a:link{
+    color: #587fb5;
+    padding-right: 2%;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #1d3b78;
+    text-decoration: none;
+}  
+
+a:hover {
+    text-decoration: underline;
+  }
+  
+a:active {
+    text-decoration: underline;
+  }
+
+hr{
+    width:50%;
+    text-align:left;
+    margin-left:01;
+}
+
+img{
+    width:100%;
+    height: 80%;
+}
+
